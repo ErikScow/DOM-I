@@ -46,10 +46,10 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //my work:
 
 //header
-const navItems = document.querySelectorAll('a');
+const navItems = document.querySelectorAll('a')
 navItems.forEach(
   (item, i) => {
-    item.textContent = siteContent["nav"][`nav-item-${i+1}`];
+    item.textContent = siteContent["nav"][`nav-item-${i+1}`]
     
     //navigation text -> green
     item.style.color = 'green'
